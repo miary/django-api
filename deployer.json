@@ -1,5 +1,5 @@
 {
-    "name":"api-server-django",
+    "name":"django-api",
     "framework": "django",
-    "type": "api-server-django"
+    "type": "django-api"
 }
