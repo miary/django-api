@@ -24,3 +24,4 @@ class RegisterViewSet(viewsets.ModelViewSet):
             },
             status=status.HTTP_201_CREATED,
         )
+

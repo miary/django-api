@@ -8,7 +8,6 @@ from django.core.exceptions import ObjectDoesNotExist
 from api.authentication.models import ActiveSession
 
 
-
 def _generate_jwt_token(user):
     token = jwt.encode(
         {"id": user.pk, "exp": datetime.utcnow() + timedelta(days=7)},

@@ -9,3 +9,4 @@ class ActiveSessionViewSet(viewsets.GenericViewSet, mixins.CreateModelMixin):
 
     def create(self, request, *args, **kwargs):
         return Response({"success": True}, status.HTTP_200_OK)
+

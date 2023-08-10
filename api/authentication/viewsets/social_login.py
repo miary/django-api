@@ -57,3 +57,4 @@ class GithubSocialLogin(APIView):
             "success": True,
             "user": {"_id": user.pk, "username": user.username, "email": user.email, "token": session.token},
         })
+    

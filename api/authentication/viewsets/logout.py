@@ -18,3 +18,4 @@ class LogoutViewSet(viewsets.GenericViewSet, mixins.CreateModelMixin):
         return Response(
             {"success": True, "msg": "Token revoked"}, status=status.HTTP_200_OK
         )
+
