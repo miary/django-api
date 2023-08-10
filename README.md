@@ -1,34 +1,17 @@
-
-# [Django API Server](https://github.com/app-generator/api-server-django)
+# Django 4 Rest Framework API with JWT Auth
 
 Simple starter built with Python / Django Rest / Sqlite3 and JWT Auth. The authentication flow is built with [json web tokens](https://jwt.io).
-
-- 👉 [Support](https://appseed.us/support/) via **Discord & Email** provided by `AppSeed`. 
 
 <br />
 
 > Features:
 
 - ✅ `Up-to-date dependencies` 
-- ✅ [API Definition](https://docs.appseed.us/boilerplate-code/api-unified-definition) - the unified API structure implemented by this server
-- ✅ Django / DRF / SQLite3 - a simple, easy to use backend
+- ✅ Django 4 / DRF / SQLite3 - a simple, easy to use backend
 - ✅ `JWT Authentication` (login, logout, register)
 - 🆕 `OAuth` for **Github**
-  - Full-stack ready with [React Soft Dashboard](https://github.com/app-generator/react-soft-ui-dashboard)
 - ✅ Docker, Unitary tests
   
-<br />
-
-> Can be used with other [React Starters](https://appseed.us/apps/react) for a complete **Full-Stack** experience:
-
-| [React Node JS Berry](https://appseed.us/product/berry-dashboard/api-server-nodejs/react/) | [React Node Soft Dashboard](https://appseed.us/product/soft-ui-dashboard/api-server-nodejs/react/) | [React Node Horizon](https://appseed.us/product/horizon-ui/api-server-nodejs/) |
-| --- | --- | --- |
-| [![React Node JS Berry](https://user-images.githubusercontent.com/51070104/176936514-f1bccb21-bafe-4b43-9e4c-b6fe0ec9511d.png)](https://appseed.us/product/berry-dashboard/api-server-nodejs/react/) | [![React Node Soft Dashboard](https://user-images.githubusercontent.com/51070104/176936814-74386559-4e05-43d5-b9a4-8f70ce96a610.png)](https://appseed.us/product/soft-ui-dashboard/api-server-nodejs/react/) | [![React Node Horizon](https://user-images.githubusercontent.com/51070104/174428337-181e6dea-0ad9-4fe1-a35f-25e5fa656a9d.png)](https://appseed.us/product/horizon-ui/api-server-nodejs/)
-
-<br />
-
-![Nodejs API Server - Open-source Nodejs Starter provided by AppSeed.](https://user-images.githubusercontent.com/51070104/124414813-142aa180-dd5c-11eb-9279-6b082dadc51a.png)
-
 <br />
 
 ## ✨ Quick Start in `Docker`
@@ -36,8 +19,8 @@ Simple starter built with Python / Django Rest / Sqlite3 and JWT Auth. The authe
 > 👉 Get the code
 
 ```bash
-$ git clone https://github.com/app-generator/api-server-django.git
-$ cd api-server-django
+$ git clone https://github.com/miary/django-api.git
+$ cd django-api
 ```
 
 > 👉 Start the app in Docker
@@ -55,8 +38,8 @@ The API server will start using the PORT `5000`.
 > 👉 **Step #1** -  Clone the sources
 
 ```bash
-$ git clone https://github.com/app-generator/api-server-django.git
-$ cd api-server-django
+$ git clone https://github.com/miary/django-api.git
+$ cd django-api
 ```
 <br />
 
@@ -115,8 +98,6 @@ $ python manage.py test
 
 ## ✨ API
 
-For a fast set up, use this POSTMAN file: [api_sample](https://github.com/app-generator/api-server-Django/blob/master/media/api.postman_collection.json)
-
 > **Register** - `api/users/signup`
 
 ```
@@ -161,4 +142,4 @@ authorization: JWT_TOKEN (returned by Login request)
 <br />
 
 ---
-**[Django API Server](https://github.com/app-generator/api-server-django)** - provided by [AppSeed](https://appseed.us)
+**[Django Rest Framework API](https://github.com/miary/django-api)** 
