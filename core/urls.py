@@ -7,3 +7,4 @@ urlpatterns = [
     path("api/users/", include(("api.routers", "api"), namespace="api")),
     path("api/sessions/oauth/github/", GithubSocialLogin.as_view(), name="github_login"),
 ]
+
