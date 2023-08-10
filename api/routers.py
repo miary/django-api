@@ -4,6 +4,7 @@ from api.authentication.viewsets import (
     ActiveSessionViewSet,
     LogoutViewSet,
 )
+
 from rest_framework import routers
 from api.user.viewsets import UserViewSet
 
